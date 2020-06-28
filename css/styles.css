@@ -65,6 +65,30 @@ span {
     position: relative;
 }
 
+.account {
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+
+.acc_handle {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    color: rgb(183, 184, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.acc_name {
+    position: relative;
+    top: -40px;
+    left: 58px;
+    color: mintcream;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 @media (max-width: 400px) {
     .action_icons {
         height: 20px;
