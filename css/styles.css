@@ -41,6 +41,7 @@ pre {
     padding: 0em;
 }
 
+
 span {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -48,8 +49,6 @@ span {
     font-weight: bolder;
     margin-left: 20px;
 }
-
-
 
 /*---------------------- CLASSes -----------------------*/
 .action_icons {
@@ -64,6 +63,30 @@ span {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
+}
+
+.account {
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+
+.acc_handle {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    color: rgb(183, 184, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.acc_name {
+    position: relative;
+    top: -40px;
+    left: 58px;
+    color: mintcream;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 @media (max-width: 400px) {
@@ -109,7 +132,6 @@ span {
 .boxhighlight :hover {
     background-color: rgb(50, 50, 68);
 }
-
 
 .col {
     padding-top: 10px;
@@ -159,6 +181,7 @@ span {
         left: -10px;
     }
 }
+
 
 .follow_box {
     border-color: gray;
@@ -225,7 +248,19 @@ span {
     padding: 2px;
 }
 
-/* ------------------------------------------- */
+
+.trending {
+    padding-left: 15px;
+}
+
+.trendbox {
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+}
 
 .tweetbox {
     border-color: gray;
@@ -235,6 +270,7 @@ span {
     border-right-style: hidden;
     border-top-style: hidden;
 }
+
 
 .tweet_button {
     color: white;
@@ -290,6 +326,7 @@ span {
         left: 300px;
     }
 }
+
 
 @media (max-width:1400) {
     .tweet_submit_button {
@@ -399,9 +436,17 @@ span {
     text-decoration: underline;
 }
 
+.username {
+    color: rgb(94, 93, 93);
+}
 
 
 /*---------------------- IDs -----------------------*/
+
+#searchbar {
+    width: 300px;
+}
+
 #home_title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -411,6 +456,27 @@ span {
 #home_page {
     padding-left: 5px;
     margin-left: 5px;
+}
+
+
+#follow_suggestions {
+    background-color: rgb(34, 34, 46);
+    border-radius: 4mm;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#mobile-top {
+    background-color: rgb(11, 11, 24);
+    border-bottom-style: solid;
+    position: sticky;
+    top: 0;
+    width:100%;
+    z-index: 100;
+}
+
+#searchbar {
+    background-color: rgb(34, 34, 46);
 }
 
 #side_menu{
@@ -426,6 +492,38 @@ span {
         top:0;
     }
 
+}
+
+#suggestions {
+    border-top: 5px;
+    border-bottom: 5px;
+    border-radius: 2mm;
+    padding: 10px;
+    display: block;
+    overflow-x: hidden;
+    position: fixed;
+    right: 0;
+}
+
+#top_Home {
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+}
+
+#trends {
+    background-color:rgb(34, 34, 46);
+    border-radius: 4mm;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#trends_for_you {
+    margin: 2px;
+    padding-left: 10px;
 }
 
 #tweet_1_text {
@@ -490,12 +588,18 @@ span {
     }
 }
 
-#top_Home {
-    border-color: gray;
+#tweet_main_col {
     border-style: solid;
     border-width: 1px;
-    border-left-style: hidden;
-    border-right-style: hidden;
-    border-top-style: hidden;
 }
 
+@media (max-width: 400px) {
+    #tweet_main_col {
+        border-style: hidden;
+    }
+}
+
+#who_to_follow {
+    margin: 2px;
+    padding-left: 10px;
+}
