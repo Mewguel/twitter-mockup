@@ -190,9 +190,6 @@ span {
     overflow: hidden;
 }
 
-
-/* ----------------------------- */
-
 .nav-item {
     margin-bottom: 5px;
     margin-left: 50px;
@@ -230,7 +227,14 @@ span {
 
 /* ------------------------------------------- */
 
-
+.tweetbox {
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+}
 
 .tweet_button {
     color: white;
@@ -259,14 +263,155 @@ span {
     }
 }
 
-/* ------------------------------------------- */
+.tweet_submit_button {
+    color: white;
+    background-color: rgb(31, 153, 224);
+    font-family: 'Arial', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
 
+@media (max-width:1960) {
+    .tweet_submit_button {
+        color: white;
+        background-color: rgb(31, 153, 224);
+        font-family: 'Arial', sans-serif;
+        font-size: medium;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        position: relative;
+        left: 300px;
+    }
+}
+
+@media (max-width:1400) {
+    .tweet_submit_button {
+        color: white;
+        background-color: rgb(31, 153, 224);
+        font-family: 'Arial', sans-serif;
+        font-size: medium;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        position: relative;
+        left: 20px;
+    }
+}
+
+.tweet {
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+.tweet_text_row {
+    height: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 420) {
+    .tweet_text_row {
+        height: 20px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.twitter_icons {
+    left: 0;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.tweet_img {
+    border-radius: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    position: relative;
+    left: 65px;
+    top: -20px;
+    height: auto;
+    width: 85%;
+}
+
+@media (max-width: 400px) {
+    .tweet_img {
+        position: relative;
+        border-radius: 10px;
+        margin: 0;
+        padding: 0;
+        top: -20px;
+        left: 65px;
+        width: 60%;
+        height: auto;
+    }
+}
+
+.twitter_handle {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: rgb(183, 184, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+@media (max-width: 400px) {
+    .twitter_handle {
+        position: absolute;
+        top: 12px;
+        left: 30px;
+        color: rgb(183, 184, 183);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: small;
+    }
+}
+
+.twitter_logo {
+    color: white;
+    font-size: 30px;
+    left: 60px;
+    position: relative;
+    top:5px;
+}
+
+.twitter_name {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    color: mintcream;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.twitter_name :hover {
+    text-decoration: underline;
+}
 
 
 
 /*---------------------- IDs -----------------------*/
+#home_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
 
-
+#home_page {
+    padding-left: 5px;
+    margin-left: 5px;
+}
 
 #side_menu{
     display: block;
@@ -283,7 +428,67 @@ span {
 
 }
 
+#tweet_1_text {
+    color: mintcream;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+    left: -150px;
+}
 
+#tweet_2_text {
+    color: mintcream;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+    left: -160px;
+}
+
+#tweet_3_text {
+    color: mintcream;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+    left: -160px;
+}
+
+#tweet_4_text {
+    color: mintcream;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+    left: -160px;
+}
+
+#tweet_5_text {
+    color: mintcream;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+    left: -160px;
+}
+
+@media (max-width: 400px) {
+    #tweet_1_text {
+        color: mintcream;
+        font-size: medium;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 0px;
+        left: 30px;
+    }
+}
 
 #top_Home {
     border-color: gray;
