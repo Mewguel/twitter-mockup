@@ -1,0 +1,7 @@
+### Static Twitter Page
+
+# This is a Twitter page mockup using only HTML5 and CSS (No JS React)
+# The purpose of this mockup is to apply the basics of Web programming
+
+
+# Mockup Page Link: https://mewguel.github.io/twitter-page-mockup/
